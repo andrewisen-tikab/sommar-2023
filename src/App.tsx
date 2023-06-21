@@ -107,7 +107,7 @@ export default function BasicDemo() {
             <DataTable
                 value={songs}
                 scrollable
-                scrollHeight="70vh"
+                scrollHeight="60vh"
                 filters={filters}
                 header={header}
                 footer={footer}
