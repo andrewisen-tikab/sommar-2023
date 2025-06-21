@@ -5,5 +5,5 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [splitVendorChunkPlugin(), react(), VitePWA({ registerType: 'autoUpdate' })],
+    plugins: [splitVendorChunkPlugin(), react()],
 });
