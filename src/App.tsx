@@ -101,8 +101,8 @@ export default function BasicDemo() {
     return (
         <div className="card">
             <div className="py-4">
-                I (André "MG" Wisén) have created my own SingStar™. Here's a list of songs that are
-                available.
+                I (André Wisén) have created my own SingStar™. Here's a list of some songs that are
+                available. 
             </div>
             <DataTable
                 value={songs}
